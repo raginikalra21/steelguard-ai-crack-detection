@@ -1,10 +1,23 @@
+# Python cache
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-models/
-data/raw/
-data/processed/
-data/augmented/
+
+# Virtual env
 venv/
 .env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models
+models/*.h5
+models/*.keras
+
+# Output images
+outputs/
+
+# macOS
 .DS_Store
+
+# Streamlit cache
+.streamlit/
